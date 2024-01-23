@@ -44,17 +44,22 @@ There are no special packages needed for this project, most of packages come wit
 `2021_stations.csv`:
 - `pk`: Station code
 - `name`: Name of the station
-- `latitude`: Latitude coordinates of the station
-- `longitude`: Longitude coordinates of the station
+- `latitude`: Geographic coordinates for the latitude of the station
+- `longitude`: Longitude coordinates for the longitude of the station
 
 <a name="KeyResults"></a>
-## Key Results
-- Country Portugal is the most predictive features for the model, as we saw in the EDA, guests who are from Portugal most likely to cancel their bookings
-- Guests who made car parking and special requests and specal requests are least likely to cancel
-- Longer lead time result in higher cancel chance
-- Agent 9 has the lowest success rate of retaining the bookings
-- CatBoost is the best performing model yielded 84.24% accuracy, 81.65% recall, 67.71% precision, and 74.03% F1 score on the test set
-- After optimizing predicting threshold, the model's precision increased to 68.72%, and recall decreased to 80.36%. The model's ability to accurately predict actual canceled bookings decreased by 62 instances, but it has become significantly more reliable in avoiding misclassifying non-canceled bookings as canceled, with a reduction of 113 such instances. It's a favorable trade-off in performance
+## Key Insights
+- Stations for bike pick-up and drop-off, indicated by 'emplacement_pk_start' and 'emplacement_pk_end', share a similar distribution, suggesting that station popularity isn't tied to a specific function. Factors like geography likely play a more significant role.
+- The majority of trips are under 1 hour in duration.
+- Member usage outnumbers non-member usage by approximately 5 times.
+- Biking sees increased activity during warmer months, with peak usage in August and September.
+- Bike usage is consistent on weekdays, with a slight uptick on weekends and a decline on Sundays.
+- Short trips under 1 hour are mainly used by members, while casual riders show a gradual increase for trips lasting 55 to 160 minutes. Longer trips beyond 160 minutes see members regaining dominance.
+- The map reveals shorter trips clustering around the city center, while longer trips disperse towards the outskirts, often originating from stations near parks or recreational areas, indicating leisure activities.
+- Member trips peak on Tuesday, gradually declining until Saturday, with a slight uptick on Sunday. Non-member trips show a gradual rise, peaking on Saturday, indicating weekend leisure usage.
+- Non-members have longer average bike durations, with casual riders extending trips. Members maintain a relatively stable average duration but show a spike on Saturdays.
+- Longer average durations suggest bike trips for leisure purposes.
+- Members and non-members exhibit similar usage patterns throughout the week, with peak periods at 8 a.m. and 5 p.m. on weekdays. Fridays show increased nighttime usage, likely due to leisure activities, and weekends have concentrated afternoon trips with a notable surge at midnight.
 
 <a name="Authors"></a>
 ## Authors
