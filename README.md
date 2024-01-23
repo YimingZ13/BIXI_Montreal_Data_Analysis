@@ -6,7 +6,7 @@
 3. [Installing](#Installing)
 4. [Feature Documentations](#FeatureDocumentations)
 5. [Key Results](#KeyResults)
-6. [Special Notice](#SpecialNotice)
+6. [Special Note](#SpecialNote)
 7. [Authors](#Authors)
 8. [License](#License)
 
@@ -62,8 +62,8 @@ There are no special packages needed for this project, most of packages come wit
 - Longer average durations suggest bike trips for leisure purposes.
 - Members and non-members exhibit similar usage patterns throughout the week, with peak periods at 8 a.m. and 5 p.m. on weekdays. Fridays show increased nighttime usage, likely due to leisure activities, and weekends have concentrated afternoon trips with a notable surge at midnight.
 
-<a name="SpecialNotice"></a>
-## Special Notice
+<a name="SpecialNote"></a>
+## Special Note
 Since the scatter mapbox graph under the Geographical Pattern section in the EDA notebook cannot be embedded in the notebook, I will post the screenshot of the map below. Please revisit this plot when navigating through the `BIXI_EDA.ipynb` notebook.
 ![Screenshot 2024-01-23 at 3 36 58 PM](https://github.com/YimingZ13/BIXI_Montreal_Data_Analysis/assets/128729320/284e7cec-967c-426e-811f-02d1f6c3056c)
 
