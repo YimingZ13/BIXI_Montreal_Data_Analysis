@@ -17,21 +17,19 @@ This data analysis project delves into the wealth of information amassed from th
 
 As we embark on this exploration, the overarching goal is to not only comprehend the current landscape but also to pave the way for strategic enhancements. By deciphering the data intricacies, we seek to provide BIXI with concrete recommendations that align with the diverse needs of Montreal's residents and visitors. Join me on this journey through the data lanes of BIXI bike Montreal, where every data point is a testament to the city's evolving mobility and the potential for sustainable urban progress.
 
-The [original dataset](https://s3.ca-central-1.amazonaws.com/cdn.bixi.com/wp-content/uploads/2023/06/Historique-BIXI-2021.zip), sourced from the BIXI Montreal [Open Data website](https://bixi.com/en/open-data), encapsulates bike usage data throughout the year 2021.
+The [original datasets](https://s3.ca-central-1.amazonaws.com/cdn.bixi.com/wp-content/uploads/2023/06/Historique-BIXI-2021.zip), sourced from the BIXI Montreal [Open Data website](https://bixi.com/en/open-data), encapsulates bike usage and station data throughout the year 2021.
 
 <a name="FileStructure"></a>
 ## File Structure
 Each of the following project steps is completed in a separate notebook:
-- [Raw Data](https://github.com/YimingZ13/Hotel_cancellation_predictor_with_dynamic_thresholding/blob/main/hotel_bookings.csv): `hotel_bookings.csv`
-- [Data Cleaning](https://github.com/YimingZ13/Hotel_cancellation_predictor_with_dynamic_thresholding/blob/main/hotel_cleaning.ipynb): `hotel_cleaning.ipynb`
-- [Exploratory Analysis](https://github.com/YimingZ13/Hotel_cancellation_predictor_with_dynamic_thresholding/blob/main/hotel_eda.ipynb): `hotel_eda.ipynb`
-- [Data Preprocessing](https://github.com/YimingZ13/Hotel_cancellation_predictor_with_dynamic_thresholding/blob/main/hotel_preprocessing.ipynb): `hotel_preprocessing.ipynb`
-- [Modelling](https://github.com/YimingZ13/Hotel_cancellation_predictor_with_dynamic_thresholding/blob/main/hotel_modelling.ipynb): `hotel_modelling.ipynb`
-- [Dynamic Thresholding](https://github.com/YimingZ13/Hotel_cancellation_predictor_with_dynamic_thresholding/blob/main/dynamic_thresholding.pdf): `dynamic_thresholding.pdf`
+- [Raw Trips Data](https://github.com/YimingZ13/BIXI_Montreal_Data_Analysis/blob/main/2021_donnees_ouvertes.csv): `2021_donnees_ouvertes.csv`
+- [Raw Stations Data](https://github.com/YimingZ13/BIXI_Montreal_Data_Analysis/blob/main/2021_stations.csv): `2021_stations.csv`
+- [Data Cleaning](https://github.com/YimingZ13/BIXI_Montreal_Data_Analysis/blob/main/BIXI_cleaning.ipynb): `BIXI_cleaning.ipynb`
+- [EDA/Business Recommendations](https://github.com/YimingZ13/BIXI_Montreal_Data_Analysis/blob/main/BIXI_EDA.ipynb): `BIXI_EDA.ipynb`
 
 <a name="Installing"></a>
 ## Installing
-There are no special packages needed for this project, most of packages come with the Anaconda distribution of Python 3, but [here](https://github.com/YimingZ13/Hotel_cancellation_predictor_with_dynamic_thresholding/blob/main/environment.yml) is the python environment I used. You can download it for your convenience.
+There are no special packages needed for this project, most of packages come with the Anaconda distribution of Python 3.
 
 <a name="FeatureDocumentations"></a>
 ## Feature Documentations
