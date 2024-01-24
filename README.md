@@ -64,7 +64,7 @@ There are no special packages needed for this project, most of packages come wit
 
 <a name="SpecialNote"></a>
 ## Special Note
-Since the scatter mapbox graph under the Geographical Pattern section in the EDA notebook cannot be embedded in the notebook, I will post the screenshot of the map below. Please revisit this plot when navigating through the `BIXI_EDA.ipynb` notebook.
+Since the scatter mapbox graph under the Geographical Pattern section in the EDA notebook cannot be embedded in the notebook, below is the screenshot of the scatter mapbox. Feel free to revisit this plot when navigating through the `BIXI_EDA.ipynb` notebook.
 ![Screenshot 2024-01-23 at 3 36 58 PM](https://github.com/YimingZ13/BIXI_Montreal_Data_Analysis/assets/128729320/284e7cec-967c-426e-811f-02d1f6c3056c)
 
 <a name="Authors"></a>
